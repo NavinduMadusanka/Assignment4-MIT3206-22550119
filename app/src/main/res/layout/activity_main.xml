@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/n1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Number"
+        android:textColor="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/n2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second Number"
+        android:textColor="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/Answeris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer is:"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="ADD"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/subtract"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="SUBTRACT"
+            android:textColor="@android:color/background_light" />
+
+    </RelativeLayout>
+
+</LinearLayout>
