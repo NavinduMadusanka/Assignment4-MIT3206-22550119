@@ -46,7 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:text="Answer is:"
+        android:text="Answer is :"
         android:textColor="@android:color/background_light" />
 
     <TextView
