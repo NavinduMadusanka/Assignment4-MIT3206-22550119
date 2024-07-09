@@ -12,6 +12,7 @@
         android:label="Assignment4-MIT3206-22550119"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/Theme.Assignment4MIT320622550119"
         tools:targetApi="34">
         <activity
